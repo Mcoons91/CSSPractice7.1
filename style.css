@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/*Add two or more elements to CSS using a comma separator*/
+h1, h2 {
+    color:blueviolet;
+}
+
+/*Use the greater than symbol to establish parent-child relationship. This will only work when elements, classes or IDs are only only line apart.*/
+.box > p {
+    color: firebrick;
+}
+
+/*Use a space to add two elements, classes, or IDs to make more specific changes.*/
+.box .list {
+    color: blue;
+}
+
+/*Use the Ancestor-Descendent approach when you can't use the parent-child approach or if two items needed are too far apart.*/
+li.done{
+    color: seagreen;
+}
+
+/*You can combine multiple options to select what you need, here a space is used between two elements. A class is combined with the second element.*/
+ul p.done{
+    font-size: 0.5rem;
+}
